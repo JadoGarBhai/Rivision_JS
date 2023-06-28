@@ -112,3 +112,35 @@
 
 //\\//\\//\\///\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\//\\//\\//\\//\\//\\
 
+                                // Multidimensional Arrays
+// let arr1 = [1, 2, 3, 4, 5];
+// console.log(arr1);
+
+// let arr2 = [6, 7, 8, 9, 10];
+// console.log(arr2);
+
+// let arr3 = [11, 12, 13, 14, 15];
+// console.log(arr3);
+
+// let groupOfArrays = [arr1, arr2, arr3];
+// console.log(groupOfArrays);
+
+// let value = groupOfArrays[1][1];
+// console.log(value);
+
+// let groupOfGroupsOfArrays = [groupOfArrays, groupOfArrays, groupOfArrays];
+// console.log(groupOfGroupsOfArrays);
+
+// let value = groupOfGroupsOfArrays[1][1];
+// let value1 = groupOfGroupsOfArrays[1][2][3];
+// // console.log(value);
+// console.log(value1);
+
+                                        // PRACTICE SET
+// 1. Create an array containing three values: 1, 2, and 3.
+// 2. Nest the original array into a new array three times.
+// 3. Output the value 2 from one of the arrays into the console.
+
+// let arr = [1, 2, 3];
+// let newArray = [arr, arr, arr];
+// console.log(newArray[1][1]);          // output: 2
