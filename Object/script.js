@@ -68,11 +68,3 @@ let person = {
 // console.log(assign);
 
         // Object.create()
-function greet() {
-    return `${this.name} says: Hi, I'm good.`
-};
-
-let msg = Object.create(greet());
-greet.name = "Ali";
-
-console.log(msg);
