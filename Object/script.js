@@ -66,5 +66,3 @@ let person = {
         // Object.assign();                It;ll be use to merge values.
 // let assign = Object.assign(person, person1);
 // console.log(assign);
-
-        // Object.create()
