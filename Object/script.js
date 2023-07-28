@@ -38,7 +38,10 @@ let person = {
     age: 24,
     edu: "BS CS",
     address: "Dijkot",
-    hobbies: ["Martial Art", "Coding", "Flirting"] 
+    hobbies: ["Martial Art", "Coding", "Flirting"],
+//     display: function() {
+//         console.log(`${this.name} is a bad boy.`);
+//     }
 };
 // let person1 = {
 //     name: "Sikander",
@@ -66,3 +69,27 @@ let person = {
         // Object.assign();                It;ll be use to merge values.
 // let assign = Object.assign(person, person1);
 // console.log(assign);
+
+        // Object.create()                 It'll beuse for create values after declaration of an object.
+// let msg = {
+//     displayInfo: function() {
+//         console.log(`${this.name} says: Hi, I'm Yours.`);
+//     }
+// };
+
+// let create = Object.create(msg, {
+//     name: { value: "Amina" }
+// });
+
+// create.displayInfo();
+
+        // Object.freeze()                      once an object is frozen, its properties cannot be added, modified, or deleted. 
+// Object.freeze(person);
+
+        // Object.seal()                        This means that after sealing an object, you can modify the values of its existing properties, but you cannot add new properties, delete existing properties, or change the configurability (i.e., descriptors) of existing properties.
+// Object.seal(person);
+
+        // Object.hasOwnProperty()              It used to check, either the property includes in object or not.
+// console.log(person.hasOwnProperty("age"));
+
+        // Object.is()                          compares two values to determine if they are the same value.
